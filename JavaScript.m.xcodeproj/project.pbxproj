@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A32506391764FBFB001BEA86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32506381764FBFB001BEA86 /* Foundation.framework */; };
+		A325063C1764FBFB001BEA86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A325063B1764FBFB001BEA86 /* main.m */; };
+		A32506401764FBFB001BEA86 /* JavaScript_m.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A325063F1764FBFB001BEA86 /* JavaScript_m.1 */; };
+		A325064E1764FD78001BEA86 /* JavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = A32506471764FD78001BEA86 /* JavaScript.m */; };
+		A325064F1764FD78001BEA86 /* NSArray+JavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = A32506491764FD78001BEA86 /* NSArray+JavaScript.m */; };
+		A32506501764FD78001BEA86 /* NSRegularExpression+JavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = A325064B1764FD78001BEA86 /* NSRegularExpression+JavaScript.m */; };
+		A32506511764FD78001BEA86 /* NSString+JavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = A325064D1764FD78001BEA86 /* NSString+JavaScript.m */; };
+		A32506541764FE74001BEA86 /* NSDate+JavaScript.m in Sources */ = {isa = PBXBuildFile; fileRef = A32506531764FE74001BEA86 /* NSDate+JavaScript.m */; };
+		A325065717651315001BEA86 /* JSConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = A325065617651315001BEA86 /* JSConsole.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A32506331764FBFB001BEA86 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A32506401764FBFB001BEA86 /* JavaScript_m.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A32506351764FBFB001BEA86 /* JavaScript.m */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JavaScript.m; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32506381764FBFB001BEA86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A325063B1764FBFB001BEA86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A325063E1764FBFB001BEA86 /* JavaScript.m-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JavaScript.m-Prefix.pch"; sourceTree = "<group>"; };
+		A325063F1764FBFB001BEA86 /* JavaScript_m.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = JavaScript_m.1; sourceTree = "<group>"; };
+		A32506461764FD78001BEA86 /* JavaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaScript.h; sourceTree = "<group>"; };
+		A32506471764FD78001BEA86 /* JavaScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaScript.m; sourceTree = "<group>"; };
+		A32506481764FD78001BEA86 /* NSArray+JavaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JavaScript.h"; sourceTree = "<group>"; };
+		A32506491764FD78001BEA86 /* NSArray+JavaScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JavaScript.m"; sourceTree = "<group>"; };
+		A325064A1764FD78001BEA86 /* NSRegularExpression+JavaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRegularExpression+JavaScript.h"; sourceTree = "<group>"; };
+		A325064B1764FD78001BEA86 /* NSRegularExpression+JavaScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRegularExpression+JavaScript.m"; sourceTree = "<group>"; };
+		A325064C1764FD78001BEA86 /* NSString+JavaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JavaScript.h"; sourceTree = "<group>"; };
+		A325064D1764FD78001BEA86 /* NSString+JavaScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JavaScript.m"; sourceTree = "<group>"; };
+		A32506521764FE74001BEA86 /* NSDate+JavaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JavaScript.h"; sourceTree = "<group>"; };
+		A32506531764FE74001BEA86 /* NSDate+JavaScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JavaScript.m"; sourceTree = "<group>"; };
+		A325065517651315001BEA86 /* JSConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSConsole.h; sourceTree = "<group>"; };
+		A325065617651315001BEA86 /* JSConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSConsole.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A32506321764FBFB001BEA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32506391764FBFB001BEA86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A325062C1764FBFB001BEA86 = {
+			isa = PBXGroup;
+			children = (
+				A325063A1764FBFB001BEA86 /* JavaScript.m */,
+				A32506371764FBFB001BEA86 /* Frameworks */,
+				A32506361764FBFB001BEA86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A32506361764FBFB001BEA86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A32506351764FBFB001BEA86 /* JavaScript.m */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A32506371764FBFB001BEA86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A32506381764FBFB001BEA86 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A325063A1764FBFB001BEA86 /* JavaScript.m */ = {
+			isa = PBXGroup;
+			children = (
+				A325065517651315001BEA86 /* JSConsole.h */,
+				A325065617651315001BEA86 /* JSConsole.m */,
+				A32506521764FE74001BEA86 /* NSDate+JavaScript.h */,
+				A32506531764FE74001BEA86 /* NSDate+JavaScript.m */,
+				A32506461764FD78001BEA86 /* JavaScript.h */,
+				A32506471764FD78001BEA86 /* JavaScript.m */,
+				A32506481764FD78001BEA86 /* NSArray+JavaScript.h */,
+				A32506491764FD78001BEA86 /* NSArray+JavaScript.m */,
+				A325064A1764FD78001BEA86 /* NSRegularExpression+JavaScript.h */,
+				A325064B1764FD78001BEA86 /* NSRegularExpression+JavaScript.m */,
+				A325064C1764FD78001BEA86 /* NSString+JavaScript.h */,
+				A325064D1764FD78001BEA86 /* NSString+JavaScript.m */,
+				A325063B1764FBFB001BEA86 /* main.m */,
+				A325063F1764FBFB001BEA86 /* JavaScript_m.1 */,
+				A325063D1764FBFB001BEA86 /* Supporting Files */,
+			);
+			path = JavaScript.m;
+			sourceTree = "<group>";
+		};
+		A325063D1764FBFB001BEA86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A325063E1764FBFB001BEA86 /* JavaScript.m-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A32506341764FBFB001BEA86 /* JavaScript.m */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32506431764FBFB001BEA86 /* Build configuration list for PBXNativeTarget "JavaScript.m" */;
+			buildPhases = (
+				A32506311764FBFB001BEA86 /* Sources */,
+				A32506321764FBFB001BEA86 /* Frameworks */,
+				A32506331764FBFB001BEA86 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JavaScript.m;
+			productName = JavaScript.m;
+			productReference = A32506351764FBFB001BEA86 /* JavaScript.m */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A325062D1764FBFB001BEA86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Fleon Labs";
+			};
+			buildConfigurationList = A32506301764FBFB001BEA86 /* Build configuration list for PBXProject "JavaScript.m" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A325062C1764FBFB001BEA86;
+			productRefGroup = A32506361764FBFB001BEA86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A32506341764FBFB001BEA86 /* JavaScript.m */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A32506311764FBFB001BEA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A325063C1764FBFB001BEA86 /* main.m in Sources */,
+				A325064E1764FD78001BEA86 /* JavaScript.m in Sources */,
+				A325064F1764FD78001BEA86 /* NSArray+JavaScript.m in Sources */,
+				A32506501764FD78001BEA86 /* NSRegularExpression+JavaScript.m in Sources */,
+				A32506511764FD78001BEA86 /* NSString+JavaScript.m in Sources */,
+				A32506541764FE74001BEA86 /* NSDate+JavaScript.m in Sources */,
+				A325065717651315001BEA86 /* JSConsole.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A32506411764FBFB001BEA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A32506421764FBFB001BEA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A32506441764FBFB001BEA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JavaScript.m/JavaScript.m-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A32506451764FBFB001BEA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JavaScript.m/JavaScript.m-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A32506301764FBFB001BEA86 /* Build configuration list for PBXProject "JavaScript.m" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32506411764FBFB001BEA86 /* Debug */,
+				A32506421764FBFB001BEA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32506431764FBFB001BEA86 /* Build configuration list for PBXNativeTarget "JavaScript.m" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32506441764FBFB001BEA86 /* Debug */,
+				A32506451764FBFB001BEA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A325062D1764FBFB001BEA86 /* Project object */;
+}
